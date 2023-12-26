@@ -25,7 +25,7 @@
 		"nette/http": "^3.0",
 		"nette/neon": "^3.0",
 		"nette/php-generator": "^3.0.1@dev",
-		"nette/reflection": "^2.4.2@dev",
+		"jirkae/reflection": "^2.4.3",
 		"nette/utils": "^3.0",
 		"psr/log": "^1.0",
 		"symfony/translation": "^3.4 || ^4.0",
@@ -71,5 +71,11 @@
 		"branch-alias": {
 			"dev-master": "3.0-dev"
 		}
-	}
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/jirkae/reflection.git"
+		}
+	]
 }
