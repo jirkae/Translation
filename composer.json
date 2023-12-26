@@ -18,7 +18,6 @@
 	},
 	"require": {
 		"php": ">=7.1",
-		"jirkae/strict-objects": "^2.0.3",
 		"latte/latte": "^2.5.2 || ^3.0",
 		"nette/caching": "^3.0",
 		"nette/di": "^3.0",
@@ -72,11 +71,5 @@
 		"branch-alias": {
 			"dev-master": "3.0-dev"
 		}
-	},
-	"repositories": [
-		{
-			"type": "github",
-			"url": "https://github.com/jirkae/StrictObjects.git"
-		}
-	]
+	}
 }
